@@ -33,6 +33,8 @@
       // console.log(ev.keyCode);
       update();
     });
+    
+    $required.first().trigger("keyup");
   };
   
 }( jQuery ));
